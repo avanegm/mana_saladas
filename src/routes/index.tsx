@@ -169,7 +169,7 @@ function Index() {
           <div className="container-page grid items-center gap-10 py-28 lg:min-h-[88vh] lg:grid-cols-[42%_58%]">
 
             {/* TEXTO */}
-            <div className="relative z-10 order-2 lg:order-1 max-w-[420px] pt-12 lg:pt-0">
+            <div className="relative z-10 max-w-[420px]">
 
               <Reveal>
                 <span className="eyebrow">
@@ -185,7 +185,13 @@ function Index() {
                   <br />
                   uma forma
                   <br />
-                  de <span className="text-[#7A8F5C]" style={{ fontStyle: "italic" }}>cuidar.</span>
+                  de{" "}
+                  <span
+                    className="text-[#7A8F5C]"
+                    style={{ fontStyle: "italic" }}
+                  >
+                    cuidar.
+                  </span>
                 </h1>
               </Reveal>
 
@@ -196,33 +202,9 @@ function Index() {
                 </p>
               </Reveal>
 
-           {/* FOTO */}
-            <div className="relative order-1 lg:order-2 flex items-center justify-center lg:justify-end">
-
-              <Reveal delay={250}>
-
-                <img
-                  src={heroSalad}
-                  alt="Salada Maná"
-                  width={1800}
-                  height={1800}
-                  className="
-                  w-full
-                  max-w-[620px]
-                  mx-auto
-                  object-contain
-                  lg:w-[760px]
-                  "
-                />
-
-              </Reveal>
-
-            </div>
-
-          </div>
-
+              {/* BOTÕES DESKTOP */}
               <Reveal delay={300}>
-                <div className="mt-10 flex flex-wrap gap-4 sm:flex-row">
+                <div className="mt-10 hidden lg:flex flex-wrap gap-4">
 
                   <a
                     href={WHATSAPP_URL}
@@ -245,7 +227,54 @@ function Index() {
 
             </div>
 
+            {/* FOTO */}
+            <div className="relative flex items-center justify-center lg:justify-end">
 
+              <Reveal delay={250}>
+
+                <img
+                  src={heroSalad}
+                  alt="Salada Maná"
+                  width={1800}
+                  height={1800}
+                  className="
+            w-[92%]
+            max-w-[620px]
+            mx-auto
+            object-contain
+            lg:w-[760px]
+            lg:max-w-none
+          "
+                />
+
+              </Reveal>
+
+            </div>
+
+            {/* BOTÕES MOBILE */}
+            <Reveal delay={300}>
+              <div className="flex flex-col gap-4 lg:hidden">
+
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-[#556E3C] px-8 py-4 text-center font-semibold text-canvas transition hover:bg-[#486134]"
+                >
+                  Pedir pelo WhatsApp
+                </a>
+
+                <a
+                  href="#cardapio"
+                  className="rounded-full border border-forest/20 px-8 py-4 text-center font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
+                >
+                  Ver cardápio
+                </a>
+
+              </div>
+            </Reveal>
+
+          </div>
 
           {/* brilho suave */}
           <div className="pointer-events-none absolute right-0 top-0 h-full w-[45%] bg-gradient-to-l from-[#F3F0E8]/70 to-transparent" />
