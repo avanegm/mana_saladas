@@ -43,6 +43,7 @@
 
 :root {
   --radius: 1rem;
+  --sage: #7A8F5C;
 
   /* Maná — identidade de natureza: linho, folha, floresta e barro */
   --canvas: #f8f7f2;
@@ -91,7 +92,9 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-family: var(--font-display);
     font-weight: 400;
     line-height: 1.05;
@@ -104,14 +107,20 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    html {
+      scroll-behavior: auto;
+    }
+
+    * {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
 
 @utility container-page {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1440px;
   margin-inline: auto;
   padding-inline: 20px;
 
@@ -134,24 +143,20 @@
 }
 
 @utility soft-gradient {
-  background-image: radial-gradient(
-      120% 80% at 15% 0%,
-      color-mix(in oklab, var(--sprout) 26%, transparent) 0%,
-      transparent 60%
-    ),
-    radial-gradient(
-      90% 70% at 100% 20%,
-      color-mix(in oklab, var(--clay) 22%, transparent) 0%,
-      transparent 65%
-    );
+  background:
+    radial-gradient(circle at left top,
+      rgba(159, 192, 121, .10),
+      transparent 45%),
+    radial-gradient(circle at right top,
+      rgba(201, 168, 135, .08),
+      transparent 40%),
+    var(--canvas);
 }
 
 @utility forest-gradient {
-  background-image: linear-gradient(
-    160deg,
-    var(--forest) 0%,
-    color-mix(in oklab, var(--leaf) 55%, var(--forest)) 100%
-  );
+  background-image: linear-gradient(160deg,
+      var(--forest) 0%,
+      color-mix(in oklab, var(--leaf) 55%, var(--forest)) 100%);
 }
 
 @utility lift {
