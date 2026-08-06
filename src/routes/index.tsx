@@ -10,7 +10,7 @@ import mediterranea from "@/assets/mediterranea.jpg";
 import oliveBranch from "@/assets/olive-branch.png";
 import logoMana from "@/assets/logo-mana.png";
 import { Instagram, MessageCircle } from "lucide-react";
-import {  Leaf,  Heart,  AlarmClock,  Salad,} from "lucide-react";
+import { Leaf, Heart, AlarmClock, Salad, } from "lucide-react";
 import {
   ADDRESS,
   EMAIL,
@@ -166,7 +166,7 @@ function Index() {
       <main>
         {/* HERO */}
         <section className="relative overflow-hidden soft-gradient bg-canvas">
-          <div className="container-page min-h-[88vh] grid items-center gap-4 lg:grid-cols-[42%_58%]">
+          <div className="container-page grid items-center gap-10 py-28 lg:min-h-[88vh] lg:grid-cols-[42%_58%]">
 
             {/* TEXTO */}
             <div className="relative z-10 max-w-[420px] pt-20 lg:pt-0">
@@ -178,7 +178,7 @@ function Index() {
               </Reveal>
 
               <Reveal delay={100}>
-                <h1 className="mt-6 font-display text-[clamp(3.4rem,6vw,5.8rem)] leading-[0.98] tracking-[-0.025em] text-forest">
+                <h1 className="mt-6 font-display text-[clamp(3rem,10vw,5.8rem)] leading-[0.98] tracking-[-0.025em] text-forest">
                   Alimentar
                   <br />
                   também é
@@ -197,7 +197,7 @@ function Index() {
               </Reveal>
 
               <Reveal delay={300}>
-                <div className="mt-10 flex flex-wrap gap-4">
+                <div className="mt-10 flex flex-wrap gap-4 sm:flex-row">
 
                   <a
                     href={WHATSAPP_URL}
@@ -219,7 +219,7 @@ function Index() {
               </Reveal>
 
             </div>
-            
+
 
             {/* FOTO */}
             <div className="relative flex items-center justify-end">
@@ -232,13 +232,12 @@ function Index() {
                   width={1800}
                   height={1800}
                   className="
-            w-[820px]
-            max-w-none
-            object-contain
-            select-none
-            pointer-events-none
-            drop-shadow-[0_80px_120px_rgba(0,0,0,.12)]
-          "
+                  w-full
+                  max-w-[620px]
+                  mx-auto
+                  object-contain
+                  lg:w-[760px]
+                  "
                 />
 
               </Reveal>
@@ -605,98 +604,98 @@ function Index() {
           </div>
         </section>
 
-{/* INSTAGRAM */}
+        {/* INSTAGRAM */}
 
-<section id="instagram" className="bg-[#FBF9F5] py-20 md:py-24">
+        <section id="instagram" className="bg-[#FBF9F5] py-20 md:py-24">
 
-  <div className="container-page grid items-center gap-16 lg:grid-cols-12">
+          <div className="container-page grid items-center gap-16 lg:grid-cols-12">
 
-    {/* Texto */}
+            {/* Texto */}
 
-    <div className="lg:col-span-5">
+            <div className="lg:col-span-5">
 
-      <Reveal>
-        <span className="eyebrow">
-          Instagram
-        </span>
-      </Reveal>
+              <Reveal>
+                <span className="eyebrow">
+                  Instagram
+                </span>
+              </Reveal>
 
-      <Reveal delay={80}>
-        <h2 className="mt-5 font-display text-[clamp(2.3rem,4vw,3.8rem)] text-forest">
-          Acompanhe nosso Instagram
-          <br />
-          {INSTAGRAM_HANDLE}
-        </h2>
-      </Reveal>
+              <Reveal delay={80}>
+                <h2 className="mt-5 font-display text-[clamp(2.3rem,4vw,3.8rem)] text-forest">
+                  Acompanhe nosso Instagram
+                  <br />
+                  {INSTAGRAM_HANDLE}
+                </h2>
+              </Reveal>
 
-      <Reveal delay={150}>
-        <p className="mt-6 max-w-md leading-8 text-muted-foreground">
-          Bastidores da cozinha, ingredientes frescos,
-          novas combinações e tudo o que acontece
-          por aqui durante a semana.
-        </p>
-      </Reveal>
+              <Reveal delay={150}>
+                <p className="mt-6 max-w-md leading-8 text-muted-foreground">
+                  Bastidores da cozinha, ingredientes frescos,
+                  novas combinações e tudo o que acontece
+                  por aqui durante a semana.
+                </p>
+              </Reveal>
 
-      <Reveal delay={220}>
-        <a
-          href={INSTAGRAM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-8 inline-flex rounded-full border border-[#D8D1C4] px-8 py-4 font-semibold text-forest transition hover:border-[#556E3C] hover:text-[#556E3C]"
-        >
-          Seguir no Instagram
-        </a>
-      </Reveal>
-
-    </div>
-
-    {/* Feed */}
-
-    <div className="lg:col-span-7">
-
-      <div className="grid grid-cols-3 gap-4">
-
-        {[
-          aboutKitchen,
-          heroSalad,
-          mediterranea,
-          caesar,
-          tropical,
-          heroSalad,
-        ].map((img, i) => (
-
-          <Reveal key={i} delay={i * 60}>
-
-            <div className="overflow-hidden rounded-3xl">
-
-              <img
-                src={img}
-                alt="Instagram Maná"
-                className="aspect-square w-full object-cover transition duration-700 hover:scale-110"
-              />
+              <Reveal delay={220}>
+                <a
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-8 inline-flex rounded-full border border-[#D8D1C4] px-8 py-4 font-semibold text-forest transition hover:border-[#556E3C] hover:text-[#556E3C]"
+                >
+                  Seguir no Instagram
+                </a>
+              </Reveal>
 
             </div>
 
-          </Reveal>
+            {/* Feed */}
 
-        ))}
+            <div className="lg:col-span-7">
 
-      </div>
+              <div className="grid grid-cols-3 gap-4">
 
-    </div>
+                {[
+                  aboutKitchen,
+                  heroSalad,
+                  mediterranea,
+                  caesar,
+                  tropical,
+                  heroSalad,
+                ].map((img, i) => (
 
-  </div>
+                  <Reveal key={i} delay={i * 60}>
 
-</section>
+                    <div className="overflow-hidden rounded-3xl">
 
- {/* CTA FINAL */}
-<section className="relative overflow-hidden bg-[#5D6F3D] py-24">
+                      <img
+                        src={img}
+                        alt="Instagram Maná"
+                        className="aspect-square w-full object-cover transition duration-700 hover:scale-110"
+                      />
 
-  <img
-    src={oliveBranch}
-    alt=""
-    aria-hidden="true"
-    className="
+                    </div>
+
+                  </Reveal>
+
+                ))}
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* CTA FINAL */}
+        <section className="relative overflow-hidden bg-[#5D6F3D] py-24">
+
+          <img
+            src={oliveBranch}
+            alt=""
+            aria-hidden="true"
+            className="
       absolute
       left-0
       top-0
@@ -705,28 +704,28 @@ function Index() {
       pointer-events-none
       select-none
     "
-  />
+          />
 
-  <div className="container-page relative z-10 text-center">
+          <div className="container-page relative z-10 text-center">
 
-    <Reveal>
-      <h2 className="font-display text-[clamp(2.4rem,4vw,4rem)] text-white">
-        Hoje também tem Maná.
-      </h2>
-    </Reveal>
+            <Reveal>
+              <h2 className="font-display text-[clamp(2.4rem,4vw,4rem)] text-white">
+                Hoje também tem Maná.
+              </h2>
+            </Reveal>
 
-    <Reveal delay={100}>
-      <p className="mt-4 text-xl text-white/90">
-        Sua próxima refeição está a um clique de distância.
-      </p>
-    </Reveal>
+            <Reveal delay={100}>
+              <p className="mt-4 text-xl text-white/90">
+                Sua próxima refeição está a um clique de distância.
+              </p>
+            </Reveal>
 
-    <Reveal delay={200}>
-      <a
-        href={WHATSAPP_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="
+            <Reveal delay={200}>
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
           mt-10
           inline-flex
           items-center
@@ -740,124 +739,124 @@ function Index() {
           transition
           hover:scale-105
         "
-      >
-        <MessageCircle className="h-5 w-5" />
-        Pedir pelo WhatsApp
-      </a>
-    </Reveal>
+              >
+                <MessageCircle className="h-5 w-5" />
+                Pedir pelo WhatsApp
+              </a>
+            </Reveal>
 
-  </div>
+          </div>
 
-</section>
+        </section>
 
-<footer className="bg-[#F9F6EF] pt-12 pb-6">
+        <footer className="bg-[#F9F6EF] pt-12 pb-6">
 
-  <div className="container-page grid gap-14 lg:grid-cols-4">
+          <div className="container-page grid gap-14 lg:grid-cols-4">
 
-    {/* Logo */}
+            {/* Logo */}
 
-    <div>
+            <div>
 
-      <img
-        src={logoMana}
-        alt="Maná Saladas"
-        className="h-33"
-      />
+              <img
+                src={logoMana}
+                alt="Maná Saladas"
+                className="h-33"
+              />
 
-      <p className="mt-6 max-w-xs text-muted-foreground leading-7">
-        Alimentar também é uma forma de cuidar.
-      </p>
+              <p className="mt-6 max-w-xs text-muted-foreground leading-7">
+                Alimentar também é uma forma de cuidar.
+              </p>
 
+
+            </div>
+
+            {/* Links */}
+
+            <div>
+
+              <h3 className="text-sm font-semibold uppercase tracking-[.2em] text-[#556E3C]">
+                Links rápidos
+              </h3>
+
+              <ul className="mt-5 space-y-3">
+
+                <li><a href="#topo">Início</a></li>
+
+                <li><a href="#cardapio">Cardápio</a></li>
+
+                <li><a href="#quem-somos">Nossa história</a></li>
+
+                <li><a href="#como-funciona">Como funciona</a></li>
+
+                <li> <a href={WHATSAPP_URL}>WhatsApp</a></li>
+
+              </ul>
+
+            </div>
+
+            {/* Horário */}
+
+            <div>
+
+              <h3 className="text-sm font-semibold uppercase tracking-[.2em]">
+                Atendimento
+              </h3>
+
+              <div className="mt-5 space-y-4">
+
+                <div>
+
+                  <strong>Terça a Sexta</strong>
+
+                  <p>11h às 13h</p>
+
+                </div>
+
+                <div>
+
+                  <strong>Sábado e Domingo</strong>
+
+                  <p>10h às 14h</p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* Contato */}
+
+            <div>
+
+              <h3 className="text-sm font-semibold uppercase tracking-[.2em]">
+                Contato
+              </h3>
+
+              <div className="mt-5 space-y-3">
+
+                <p>(35) 99825-9860</p>
+
+                <p>ola@manasaladas.com.br</p>
+
+                <p>Sorocaba e Votorantim</p>
+
+                <p>@mana.saladas</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="container-page mt-8 border-t border-[#DDD4C3] pt-4 pb-2 text-center text-sm text-muted-foreground">
+
+            © 2026 Maná Saladas. Todos os direitos reservados.
+
+          </div>
+        </footer>
+
+      </main>
 
     </div>
-
-    {/* Links */}
-
-    <div>
-
-      <h3 className="text-sm font-semibold uppercase tracking-[.2em] text-[#556E3C]">
-        Links rápidos
-      </h3>
-
-      <ul className="mt-5 space-y-3">
-
-        <li><a href="#topo">Início</a></li>
-
-        <li><a href="#cardapio">Cardápio</a></li>
-
-        <li><a href="#quem-somos">Nossa história</a></li>
-
-        <li><a href="#como-funciona">Como funciona</a></li>
-
-        <li> <a href={WHATSAPP_URL}>WhatsApp</a></li>
-
-      </ul>
-
-    </div>
-
-    {/* Horário */}
-
-    <div>
-
-      <h3 className="text-sm font-semibold uppercase tracking-[.2em]">
-        Atendimento
-      </h3>
-
-      <div className="mt-5 space-y-4">
-
-        <div>
-
-          <strong>Terça a Sexta</strong>
-
-          <p>11h às 13h</p>
-
-        </div>
-
-        <div>
-
-          <strong>Sábado e Domingo</strong>
-
-          <p>10h às 14h</p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    {/* Contato */}
-
-    <div>
-
-      <h3 className="text-sm font-semibold uppercase tracking-[.2em]">
-        Contato
-      </h3>
-
-      <div className="mt-5 space-y-3">
-
-        <p>(35) 99825-9860</p>
-
-        <p>ola@manasaladas.com.br</p>
-
-        <p>Sorocaba e Votorantim</p>
-
-        <p>@mana.saladas</p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <div className="container-page mt-8 border-t border-[#DDD4C3] pt-4 pb-2 text-center text-sm text-muted-foreground">
-
-    © 2026 Maná Saladas. Todos os direitos reservados.
-
-  </div>
-</footer>
-
-</main>
-
-</div>
-);
+  );
 }
