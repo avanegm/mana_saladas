@@ -169,7 +169,7 @@ function Index() {
           <div className="container-page grid items-center gap-10 py-28 lg:min-h-[88vh] lg:grid-cols-[42%_58%]">
 
             {/* TEXTO */}
-            <div className="relative z-10 max-w-[420px] pt-20 lg:pt-0">
+            <div className="relative z-10 order-2 lg:order-1 max-w-[420px] pt-12 lg:pt-0">
 
               <Reveal>
                 <span className="eyebrow">
@@ -222,7 +222,7 @@ function Index() {
 
 
             {/* FOTO */}
-            <div className="relative flex items-center justify-end">
+            <div className="relative order-1 lg:order-2 flex items-center justify-center lg:justify-end">
 
               <Reveal delay={250}>
 
