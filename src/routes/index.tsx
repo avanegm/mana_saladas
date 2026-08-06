@@ -4,7 +4,7 @@ import { Reveal } from "@/components/Reveal";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import heroSalad from "@/assets/hero-salad.jpg";
 import aboutKitchen from "@/assets/about-kitchen.jpg";
-import caesar from "@/assets/caesar.jpg";
+import ceasar from "@/assets/caesar.jpg";
 import tropical from "@/assets/tropical.jpg";
 import mediterranea from "@/assets/mediterranea.jpg";
 import oliveBranch from "@/assets/olive-branch.png";
@@ -62,11 +62,11 @@ export const Route = createFileRoute("/")({
 
 const menu = [
   {
-    name: "Caesar",
+    name: "Ceasar",
     price: "R$ 36",
     note: "Mais pedida",
-    desc: "Alface americana, frango grelhado, parmesão ralado, croutons e molho Caesar.",
-    image: caesar,
+    desc: "Alface americana, frango grelhado, parmesão ralado, croutons e molho Ceasar.",
+    image: ceasar,
   },
   {
     name: "Tropical",
@@ -196,6 +196,31 @@ function Index() {
                 </p>
               </Reveal>
 
+           {/* FOTO */}
+            <div className="relative order-1 lg:order-2 flex items-center justify-center lg:justify-end">
+
+              <Reveal delay={250}>
+
+                <img
+                  src={heroSalad}
+                  alt="Salada Maná"
+                  width={1800}
+                  height={1800}
+                  className="
+                  w-full
+                  max-w-[620px]
+                  mx-auto
+                  object-contain
+                  lg:w-[760px]
+                  "
+                />
+
+              </Reveal>
+
+            </div>
+
+          </div>
+
               <Reveal delay={300}>
                 <div className="mt-10 flex flex-wrap gap-4 sm:flex-row">
 
@@ -221,30 +246,6 @@ function Index() {
             </div>
 
 
-            {/* FOTO */}
-            <div className="relative order-1 lg:order-2 flex items-center justify-center lg:justify-end">
-
-              <Reveal delay={250}>
-
-                <img
-                  src={heroSalad}
-                  alt="Salada Maná"
-                  width={1800}
-                  height={1800}
-                  className="
-                  w-full
-                  max-w-[620px]
-                  mx-auto
-                  object-contain
-                  lg:w-[760px]
-                  "
-                />
-
-              </Reveal>
-
-            </div>
-
-          </div>
 
           {/* brilho suave */}
           <div className="pointer-events-none absolute right-0 top-0 h-full w-[45%] bg-gradient-to-l from-[#F3F0E8]/70 to-transparent" />
@@ -447,7 +448,7 @@ function Index() {
 
                   {[
                     {
-                      name: "Caesar",
+                      name: "Ceasar",
                       desc: "Cremoso e clássico."
                     },
                     {
@@ -659,7 +660,7 @@ function Index() {
                   aboutKitchen,
                   heroSalad,
                   mediterranea,
-                  caesar,
+                  ceasar,
                   tropical,
                   heroSalad,
                 ].map((img, i) => (
