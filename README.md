@@ -1,29 +1,131 @@
-# Welcome to your Lovable project
+# 🥗 Maná Saladas
 
-This project was built with [Lovable](https://lovable.dev).
+Landing page institucional desenvolvida para a **Maná Saladas**, uma marca de saladas artesanais de Sorocaba/SP.
 
-## Build with Lovable
+O projeto foi criado com foco em uma experiência moderna, elegante e responsiva, transmitindo os valores da marca: **cuidado, frescor e simplicidade**.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## ✨ Funcionalidades
 
-## Development
+- Landing page totalmente responsiva
+- Hero com CTA para WhatsApp
+- Sessão "Quem Somos"
+- Cardápio com produtos em destaque
+- Molhos e adicionais
+- Diferenciais da marca
+- Integração com Instagram
+- CTA final para conversão
+- Footer institucional
+- Navegação por âncoras
+- Animações suaves de entrada
+- Botão flutuante do WhatsApp
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+---
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## 🚀 Tecnologias
+
+- React 19
+- TypeScript
+- Vite
+- TanStack Router
+- Tailwind CSS v4
+- Lucide React
+- Radix UI
+- CSS Animations
+
+---
+
+## 📁 Estrutura
+
+```
+src/
+ ├── assets/
+ ├── components/
+ ├── lib/
+ ├── routes/
+ ├── styles.css
+ └── main.tsx
+```
+
+---
+
+## 🛠️ Instalação
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/SEU_USUARIO/site-mana-saladas.git
+```
+
+Entre na pasta:
+
+```bash
+cd site-mana-saladas
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
 npm run dev
 ```
 
-## Built with
+---
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## 📦 Build
+
+```bash
+npm run build
+```
+
+Preview:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎨 Identidade Visual
+
+A interface foi construída utilizando uma paleta inspirada em ingredientes naturais.
+
+**Cores principais**
+
+- Verde Floresta
+- Verde Oliva
+- Bege Linho
+- Branco Off-white
+
+O objetivo foi transmitir:
+
+- frescor
+- cuidado
+- alimentação saudável
+- sofisticação
+
+---
+
+## 📱 Contato
+
+**WhatsApp**
+
+(15) 99824-9546
+
+**Instagram**
+
+[@mana.saladas](https://instagram.com/mana.saladas)
+
+---
+
+## 📄 Licença
+
+Projeto desenvolvido exclusivamente para a **Maná Saladas**.
+
+Todos os direitos reservados.
