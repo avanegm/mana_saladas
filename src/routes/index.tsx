@@ -296,14 +296,18 @@ function Index() {
         </section>
 
         {/* QUEM SOMOS */}
-        <section id="quem-somos" className="relative bg-linen py-0 overflow-hidden">
-          <div className="container-page grid items-center gap-10 lg:grid-cols-12">
-            <div className="relative lg:col-span-6 overflow-hidden">
-            </div>
-            <div className="relative lg:col-span-6 lg:col-start-7">
+        <section
+          id="quem-somos"
+          className="relative overflow-hidden bg-linen py-20 md:py-28"
+        >
+          <div className="container-page">
+
+            <div className="mx-auto max-w-4xl">
+
               <Reveal>
                 <span className="eyebrow">Quem somos</span>
               </Reveal>
+
               <Reveal delay={80}>
                 <h2 className="mt-6 font-display text-[clamp(2.6rem,4vw,4rem)] leading-[1.05] text-forest">
                   Mais que uma salada.
@@ -314,10 +318,12 @@ function Index() {
                   </span>
                 </h2>
               </Reveal>
+
               <Reveal delay={150}>
-                <div className="mt-8 space-y-5 text-[16.5px] leading-relaxed text-muted-foreground">
+                <div className="mt-8 max-w-3xl space-y-5 text-[16.5px] leading-relaxed text-muted-foreground">
                   <p>
-                    O nome Maná nasceu inspirado no alimento que Deus enviou para sustentar Seu povo no deserto.
+                    O nome Maná nasceu inspirado no alimento que Deus enviou para
+                    sustentar Seu povo no deserto.
                   </p>
 
                   <p>
@@ -325,34 +331,40 @@ function Index() {
                   </p>
 
                   <p>
-                    Cada salada é preparada com ingredientes frescos e muito carinho, porque acreditamos que alimentar alguém também é uma forma de cuidar.
+                    Cada salada é preparada com ingredientes frescos e muito carinho,
+                    porque acreditamos que alimentar alguém também é uma forma de cuidar.
                   </p>
 
                   <p>
-                    Estamos começando nossa história, mas colocamos em cada entrega o mesmo compromisso que desejamos manter por muitos anos.
+                    Estamos começando nossa história, mas colocamos em cada entrega o
+                    mesmo compromisso que desejamos manter por muitos anos.
                   </p>
                 </div>
               </Reveal>
+
             </div>
+
           </div>
+
           {/* Oliveira decorativa */}
           <img
             src={oliveBranch}
             alt=""
             aria-hidden="true"
             className="
-            absolute
-            bottom-8              
-            right-[-30px]
-            w-32
-            opacity-10
-            pointer-events-none
-            select-none
-            "
+      pointer-events-none
+      absolute
+      bottom-4
+      right-[-20px]
+      w-32
+      select-none
+      opacity-10
+      md:right-0
+      md:w-40
+    "
           />
         </section>
 
- 
 
         {/* POR QUE ESCOLHER A MANÁ */}
         <section
@@ -566,17 +578,17 @@ function Index() {
 
                 <div>
 
-                  <strong>Terça a Sexta</strong>
+                  <strong>Segunda a Sexta</strong>
 
-                  <p>11h às 13h</p>
+                  <p>10h às 15h</p>
 
                 </div>
 
                 <div>
 
-                  <strong>Sábado e Domingo</strong>
+                  <strong>Sábado</strong>
 
-                  <p>10h às 14h</p>
+                  <p>10h às 15h</p>
 
                 </div>
 
@@ -596,11 +608,9 @@ function Index() {
 
                 <p>(15) 99778-6753</p>
 
-                <p>ola@manasaladas.com.br</p>
+                <p>@mana.saladas</p>
 
                 <p>Sorocaba e Votorantim</p>
-
-                <p>@mana.saladas</p>
 
               </div>
 
