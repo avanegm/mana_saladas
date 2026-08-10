@@ -548,24 +548,6 @@ function Index() {
 
           <div className="container-page grid gap-14 lg:grid-cols-4">
 
-            {/* Logo */}
-
-            <div>
-
-              <img
-                src={logoMana}
-                alt="Maná Saladas"
-                className="h-33"
-              />
-
-              <p className="mt-6 max-w-xs text-muted-foreground leading-7">
-                Alimentar também é uma forma de cuidar.
-              </p>
-
-
-            </div>
-
-
             {/* Horário */}
 
             <div>
@@ -596,6 +578,23 @@ function Index() {
 
             </div>
 
+            {/* Logo */}
+
+            <div>
+
+              <img
+                src={logoMana}
+                alt="Maná Saladas"
+                className="h-33"
+              />
+
+              <p className="mt-6 max-w-xs text-muted-foreground leading-7">
+                Alimentar também é uma forma de cuidar.
+              </p>
+
+
+            </div>
+            
           </div>
 
           <div className="container-page mt-8 border-t border-[#DDD4C3] pt-4 pb-2 text-center text-sm text-muted-foreground">
