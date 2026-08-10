@@ -4,7 +4,6 @@ import oliveBranch from "@/assets/olive-branch.png";
 
 const links = [
   { href: "#quem-somos", label: "Quem somos" },
-  { href: "#cardapio", label: "Cardápio" },
   { href: "#como-funciona", label: "Por que a Maná" },
   { href: "#instagram", label: "Instagram" },
 ];

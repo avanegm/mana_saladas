@@ -11,7 +11,6 @@ O projeto foi criado com foco em uma experiência moderna, elegante e responsiva
 - Landing page totalmente responsiva
 - Hero com CTA para WhatsApp
 - Sessão "Quem Somos"
-- Cardápio com produtos em destaque
 - Molhos e adicionais
 - Diferenciais da marca
 - Integração com Instagram

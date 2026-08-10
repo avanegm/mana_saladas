@@ -215,12 +215,6 @@ function Index() {
                     Pedir pelo WhatsApp
                   </a>
 
-                  <a
-                    href="#cardapio"
-                    className="rounded-full border border-forest/20 px-8 py-4 font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
-                  >
-                    Ver cardápio
-                  </a>
 
                 </div>
               </Reveal>
@@ -264,12 +258,6 @@ function Index() {
                   Pedir pelo WhatsApp
                 </a>
 
-                <a
-                  href="#cardapio"
-                  className="rounded-full border border-forest/20 px-8 py-4 text-center font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
-                >
-                  Ver cardápio
-                </a>
 
               </div>
             </Reveal>
@@ -359,16 +347,6 @@ function Index() {
                   </p>
                 </div>
               </Reveal>
-              <Reveal delay={250}>
-                <div className="mt-10">
-                  <a
-                    href="#cardapio"
-                    className="rounded-full bg-[#556E3C] px-8 py-4 font-semibold text-canvas transition hover:bg-[#486134]"
-                  >
-                    Conheça nosso cardápio
-                  </a>
-                </div>
-              </Reveal>
             </div>
           </div>
           {/* Oliveira decorativa */}
@@ -388,219 +366,7 @@ function Index() {
           />
         </section>
 
-        {/* CARDÁPIO */}
-
-        <section id="cardapio" className="bg-canvas py-14 md:py-16">
-
-          <div className="container-page">
-
-            <Reveal>
-              <div className="text-center">
-
-                <span className="eyebrow">
-                  Cardápio
-                </span>
-
-                <h2 className="mt-4 font-display text-[clamp(2.4rem,4vw,4rem)] text-forest">
-                  Escolha sua favorita
-                </h2>
-
-                <p className="mt-5 max-w-xl mx-auto text-muted-foreground">
-                  Três receitas que fazem sucesso todos os dias, preparadas na hora e
-                  com ingredientes frescos.
-                </p>
-
-              </div>
-            </Reveal>
-
-            <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-
-              {menu.map((item, i) => (
-
-                <Reveal key={item.name} delay={i * 80}>
-
-                  <article className="lift overflow-hidden rounded-[1.8rem] border border-border bg-white">
-
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="h-52 w-full object-cover transition duration-700 hover:scale-105"
-                    />
-
-                    <div className="p-6">
-
-                      <div className="flex items-start justify-between">
-
-                        <div>
-
-                          <h3 className="font-display text-3xl text-forest">
-                            {item.name}
-                          </h3>
-
-                          <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-clay">
-                            {item.note}
-                          </p>
-
-                        </div>
-
-                        <span className="font-semibold text-leaf">
-                          {item.price}
-                        </span>
-
-                      </div>
-
-                      <p className="mt-5 leading-7 text-muted-foreground">
-                        {item.desc}
-                      </p>
-
-                    </div>
-
-                  </article>
-
-                </Reveal>
-
-              ))}
-
-            </div>
-
-            {/* MOLHOS */}
-
-            <Reveal delay={200}>
-
-              <div className="mt-24">
-
-                <h3 className="text-center font-display text-4xl text-forest">
-                  Escolha seu molho
-                </h3>
-
-                <div className="mt-10 grid gap-6 md:grid-cols-3">
-
-                  {[
-                    {
-                      name: "Caesar",
-                      desc: "Cremoso e clássico."
-                    },
-                    {
-                      name: "Mostarda e Mel",
-                      desc: "Levemente adocicado."
-                    },
-                    {
-                      name: "Azeite com Limão",
-                      desc: "Leve e refrescante."
-                    }
-
-                  ].map((molho) => (
-                    <div
-                      key={molho.name}
-                      className="rounded-3xl border border-border bg-white p-8 text-center"
-                    >
-
-                      <div className="text-4xl">🥣</div>
-
-                      <h4 className="mt-5 font-display text-2xl text-forest">
-                        {molho.name}
-                      </h4>
-
-                      <p className="mt-2 text-muted-foreground">
-                        {molho.desc}
-                      </p>
-
-                    </div>
-                  ))}
-
-                </div>
-
-              </div>
-
-            </Reveal>
-
-            {/* ACOMPANHAMENTOS */}
-
-            <Reveal delay={260}>
-
-              <div className="mt-24">
-
-                <h3 className="text-center font-display text-4xl text-forest">
-                  Personalize sua salada
-                </h3>
-
-                <p className="mt-4 text-center text-muted-foreground">
-                  Escolha os ingredientes que deixam sua refeição ainda mais especial.
-                </p>
-
-                <div className="mt-12 flex flex-wrap justify-center gap-4">
-
-                  {[
-                    "Frango grelhado",
-                    "Macarrão",
-                    "Macarrão Integral",
-                    "Alface",
-                    "Tomate",
-                    "Manga",
-                    "Rúcula",
-                    "Morango",
-                    "Croutons",
-                    "Pepino",
-                    "Azeitona",
-                    "Cenoura ralada",
-                    "Parmesão ralado",
-                    "Mussarela de búfala",
-                    "Ricota",
-                  ].map((item) => (
-
-                    <span
-                      key={item}
-                      className="
-                rounded-full
-                border
-                border-[#DDD5C8]
-                bg-[#F8F5EF]
-                px-6
-                py-3
-                text-sm
-                text-forest
-              "
-                    >
-                      {item}
-                    </span>
-
-                  ))}
-
-                </div>
-
-              </div>
-
-            </Reveal>
-
-            <Reveal delay={320}>
-
-              <div className="mt-20 text-center">
-
-                <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-            rounded-full
-            bg-[#556E3C]
-            px-10
-            py-4
-            font-semibold
-            text-white
-            transition
-            hover:bg-[#486134]
-          "
-                >
-                  Pedir pelo WhatsApp
-                </a>
-
-              </div>
-
-            </Reveal>
-
-          </div>
-
-        </section>
+ 
 
         {/* POR QUE ESCOLHER A MANÁ */}
         <section
@@ -812,8 +578,6 @@ function Index() {
               <ul className="mt-5 space-y-3">
 
                 <li><a href="#topo">Início</a></li>
-
-                <li><a href="#cardapio">Cardápio</a></li>
 
                 <li><a href="#quem-somos">Nossa história</a></li>
 
