@@ -596,28 +596,6 @@ function Index() {
 
             </div>
 
-            {/* Contato */}
-
-            <div>
-
-              <h3 className="text-sm font-semibold uppercase tracking-[.2em]">
-                Contato
-              </h3>
-
-              <div className="mt-5 space-y-3">
-
-                <p>(15) 99778-6753</p>
-
-                <p>@mana.saladas</p>
-
-                <p>Sorocaba e Votorantim</p>
-
-              </div>
-
-            </div>
-
-          </div>
-
           <div className="container-page mt-8 border-t border-[#DDD4C3] pt-4 pb-2 text-center text-sm text-muted-foreground">
 
             © 2026 Maná Saladas. Todos os direitos reservados.
