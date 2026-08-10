@@ -553,27 +553,6 @@ function Index() {
 
             </div>
 
-            {/* Links */}
-
-            <div>
-
-              <h3 className="text-sm font-semibold uppercase tracking-[.2em] text-[#556E3C]">
-                Links rápidos
-              </h3>
-
-              <ul className="mt-5 space-y-3">
-
-                <li><a href="#topo">Início</a></li>
-
-                <li><a href="#quem-somos">Nossa história</a></li>
-
-                <li><a href="#como-funciona">Como funciona</a></li>
-
-                <li> <a href={WHATSAPP_URL}>WhatsApp</a></li>
-
-              </ul>
-
-            </div>
 
             {/* Horário */}
 
