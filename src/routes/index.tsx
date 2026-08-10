@@ -4,7 +4,7 @@ import { Reveal } from "@/components/Reveal";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import heroSalad from "@/assets/hero-salad.jpg";
 import aboutKitchen from "@/assets/about-kitchen.jpg";
-import ceasar from "@/assets/caesar.jpg";
+import caesar from "@/assets/caesar.jpg";
 import tropical from "@/assets/tropical.jpg";
 import mediterranea from "@/assets/mediterranea.jpg";
 import oliveBranch from "@/assets/olive-branch.png";
@@ -62,11 +62,11 @@ export const Route = createFileRoute("/")({
 
 const menu = [
   {
-    name: "Ceasar",
+    name: "Caesar",
     price: "R$ 36",
     note: "Mais pedida",
-    desc: "Alface americana, frango grelhado, parmesão ralado, croutons e molho Ceasar.",
-    image: ceasar,
+    desc: "Alface americana, frango grelhado, parmesão ralado, croutons e molho Caesar.",
+    image: caesar,
   },
   {
     name: "Tropical",
@@ -477,7 +477,7 @@ function Index() {
 
                   {[
                     {
-                      name: "Ceasar",
+                      name: "Caesar",
                       desc: "Cremoso e clássico."
                     },
                     {
@@ -689,7 +689,7 @@ function Index() {
                   aboutKitchen,
                   heroSalad,
                   mediterranea,
-                  ceasar,
+                  caesar,
                   tropical,
                   heroSalad,
                 ].map((img, i) => (
@@ -864,7 +864,7 @@ function Index() {
 
               <div className="mt-5 space-y-3">
 
-                <p>(35) 99825-9860</p>
+                <p>(15) 99778-6753</p>
 
                 <p>ola@manasaladas.com.br</p>
 
