@@ -533,6 +533,7 @@ function Index() {
                   {[
                     "Frango grelhado",
                     "Macarrão",
+                    "Macarrão Integral",
                     "Alface",
                     "Tomate",
                     "Manga",
