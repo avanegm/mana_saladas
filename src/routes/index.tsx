@@ -543,66 +543,92 @@ function Index() {
           </div>
 
         </section>
+        
 
-        <footer className="bg-[#F9F6EF] pt-12 pb-6">
+{/* FOOTER */}
+<footer className="bg-canvas py-12 md:py-14">
 
-          <div className="container-page grid gap-14 lg:grid-cols-4">
+  <div className="container-page">
 
-            {/* Horário */}
+    {/* CONTEÚDO PRINCIPAL */}
+    <div className="grid items-start gap-10 text-center md:grid-cols-3 md:gap-8">
 
-            <div>
+      {/* ATENDIMENTO */}
+      <div>
+        <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-forest">
+          Atendimento
+        </h3>
 
-              <h3 className="text-sm font-semibold uppercase tracking-[.2em]">
-                Atendimento
-              </h3>
+        <div className="mt-4 space-y-3 text-sm text-muted-foreground">
 
-              <div className="mt-5 space-y-4">
-
-                <div>
-
-                  <strong>Segunda a Sexta</strong>
-
-                  <p>10h às 15h</p>
-
-                </div>
-
-                <div>
-
-                  <strong>Sábado</strong>
-
-                  <p>10h às 15h</p>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            {/* Logo */}
-
-            <div>
-
-              <img
-                src={logoMana}
-                alt="Maná Saladas"
-                className="h-33"
-              />
-
-              <p className="mt-6 max-w-xs text-muted-foreground leading-7">
-                Alimentar também é uma forma de cuidar.
-              </p>
-
-
-            </div>
-
+          <div>
+            <strong className="font-semibold text-forest">
+              Segunda a Sexta
+            </strong>
+            <p>10h às 15h</p>
           </div>
 
-          <div className="container-page mt-8 border-t border-[#DDD4C3] pt-4 pb-2 text-center text-sm text-muted-foreground">
-
-            © 2026 Maná Saladas. Todos os direitos reservados.
-
+          <div>
+            <strong className="font-semibold text-forest">
+              Sábado
+            </strong>
+            <p>10h às 15h</p>
           </div>
-        </footer>
+
+        </div>
+      </div>
+
+
+      {/* LOGO */}
+      <div className="flex flex-col items-center">
+
+        <img
+          src={logoMana}
+          alt="Maná Saladas"
+          className="h-20 w-auto object-contain"
+        />
+
+        <p className="mt-4 max-w-xs text-sm leading-6 text-muted-foreground">
+          Alimentar também é uma forma de cuidar.
+        </p>
+
+        <div className="mt-4 flex items-center justify-center gap-4">
+
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram da Maná"
+            className="text-muted-foreground transition hover:text-leaf"
+          >
+            <Instagram className="h-5 w-5" />
+          </a>
+
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp da Maná"
+            className="text-muted-foreground transition hover:text-leaf"
+          >
+            <MessageCircle className="h-5 w-5" />
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    {/* COPYRIGHT */}
+    <div className="mt-10 border-t border-border pt-5 text-center text-xs text-muted-foreground">
+      © 2026 Maná Saladas. Todos os direitos reservados.
+    </div>
+
+  </div>
+
+</footer>
 
       </main>
 
