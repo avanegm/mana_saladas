@@ -166,7 +166,7 @@ function Index() {
       <main>
         {/* HERO */}
         <section className="relative overflow-hidden soft-gradient bg-canvas">
-          <div className="container-page grid items-center gap-10 py-28 lg:min-h-[88vh] lg:grid-cols-[42%_58%]">
+          <div className="container-page grid items-center gap-10 py-20 lg:grid-cols-[42%_58%]">
 
             {/* TEXTO */}
             <div className="relative z-10 max-w-[420px]">
@@ -594,7 +594,7 @@ function Index() {
 
 
             </div>
-            
+
           </div>
 
           <div className="container-page mt-8 border-t border-[#DDD4C3] pt-4 pb-2 text-center text-sm text-muted-foreground">
