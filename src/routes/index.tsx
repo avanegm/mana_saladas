@@ -299,20 +299,6 @@ function Index() {
         <section id="quem-somos" className="relative bg-linen py-0 overflow-hidden">
           <div className="container-page grid items-center gap-10 lg:grid-cols-12">
             <div className="relative lg:col-span-6 overflow-hidden">
-              <Reveal>
-                <img
-                  src={aboutKitchen}
-                  alt="Saladas Maná"
-                  loading="lazy"
-                  className="
-                  h-full
-                  min-h-[680px]
-                  w-full
-                  object-cover
-                  object-center
-                "
-                />
-              </Reveal>
             </div>
             <div className="relative lg:col-span-6 lg:col-start-7">
               <Reveal>
