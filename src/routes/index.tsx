@@ -274,8 +274,7 @@ function Index() {
 
           </div>
 
-          {/* brilho suave */}
-          <div className="pointer-events-none absolute right-0 top-0 h-full w-[45%] bg-gradient-to-l from-[#F3F0E8]/70 to-transparent" />
+
         </section>
 
 
