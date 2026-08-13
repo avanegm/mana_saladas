@@ -3,10 +3,12 @@ import { Header } from "@/components/Header";
 import { Reveal } from "@/components/Reveal";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import heroSalad from "@/assets/hero-salad.jpg";
+import heroSalade from "@/assets/hero-salad_1.jpg";
 import aboutKitchen from "@/assets/about-kitchen.jpg";
 import caesar from "@/assets/caesar.jpg";
 import tropical from "@/assets/tropical.jpg";
 import mediterranea from "@/assets/mediterranea.jpg";
+import mediterranear from "@/assets/mediterranea1.jpg";
 import oliveBranch from "@/assets/olive-branch.png";
 import logoMana from "@/assets/logo-mana.png";
 import { Instagram, MessageCircle } from "lucide-react";
@@ -460,11 +462,11 @@ function Index() {
 
                 {[
                   aboutKitchen,
-                  heroSalad,
+                  heroSalade,
                   mediterranea,
                   caesar,
                   tropical,
-                  heroSalad,
+                  mediterranear,
                 ].map((img, i) => (
 
                   <Reveal key={i} delay={i * 60}>
