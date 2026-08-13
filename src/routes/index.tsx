@@ -268,6 +268,14 @@ function Index() {
                   Pedir pelo WhatsApp
                 </a>
 
+                <a
+                  href="/cardapio-mana.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-forest/20 px-8 py-4 text-center font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
+                >
+                  Ver cardápio
+                </a>
 
               </div>
             </Reveal>
