@@ -206,7 +206,7 @@ function Index() {
 
               {/* BOTÕES DESKTOP */}
               <Reveal delay={300}>
-                <div className="mt-10 flex flex-wrap gap-4">
+                <div className="mt-10 hidden flex-wrap gap-4 lg:flex">
 
                   <a
                     href={WHATSAPP_URL}
@@ -228,7 +228,6 @@ function Index() {
 
                 </div>
               </Reveal>
-
             </div>
 
             {/* FOTO */}
