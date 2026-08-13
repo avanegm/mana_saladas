@@ -218,7 +218,7 @@ function Index() {
                   </a>
 
                   <a
-                    href="/cardapio-mana.pdf"
+                    href="/cardapio-mana.png"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-full border border-forest/20 px-8 py-4 font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
@@ -268,7 +268,7 @@ function Index() {
                 </a>
 
                 <a
-                  href="/cardapio-mana.pdf"
+                  href="/cardapio-mana.png"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full border border-forest/20 px-8 py-4 text-center font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
