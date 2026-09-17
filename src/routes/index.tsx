@@ -579,16 +579,9 @@ function Index() {
 
                   <div>
                     <strong className="font-semibold text-forest">
-                      Segunda a Sexta
+                      Terça a Domingo
                     </strong>
-                    <p>10h às 15h</p>
-                  </div>
-
-                  <div>
-                    <strong className="font-semibold text-forest">
-                      Sábado
-                    </strong>
-                    <p>10h às 15h</p>
+                    <p>11h às 15h</p>
                   </div>
 
                 </div>
