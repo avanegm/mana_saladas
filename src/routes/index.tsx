@@ -521,7 +521,7 @@ function Index() {
 
             <Reveal>
               <h2 className="font-display text-[clamp(2.4rem,4vw,4rem)] text-white">
-                Hoje também tem Maná.
+                Hoje tem Maná!
               </h2>
             </Reveal>
 
