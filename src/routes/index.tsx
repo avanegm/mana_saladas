@@ -27,13 +27,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Maná Bowls | Bowls frescas e artesanais com entrega" },
+      { title: "Maná Bowls | Saladas e Bowls frescoss e artesanais com entrega" },
       {
         name: "description",
         content:
           "Bowls e bowls montados no dia com ingredientes frescos e selecionados. Sabor, leveza e cuidado em cada detalhe — peça pelo WhatsApp.",
       },
-      { property: "og:title", content: "Maná Bowls | Bowls frescas e artesanais" },
+      { property: "og:title", content: "Maná Bowls | Saladas e Bowls frescos e artesanais" },
       {
         property: "og:description",
         content:
@@ -175,7 +175,7 @@ function Index() {
 
               <Reveal>
                 <span className="eyebrow">
-                  Bowls frescas • Sorocaba e Votorantim
+                  Saladas frescas • Sorocaba e Votorantim
                 </span>
               </Reveal>
 
@@ -199,7 +199,7 @@ function Index() {
 
               <Reveal delay={200}>
                 <p className="mt-8 text-lg leading-8 text-muted-foreground">
-                  Bowls artesanais preparadas diariamente com ingredientes
+                  Saladas e Bowls artesanais preparadas diariamente com ingredientes
                   frescos, muito sabor e carinho.
                 </p>
               </Reveal>

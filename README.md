@@ -1,6 +1,6 @@
 # 🥗 Maná Bowls
 
-Landing page institucional desenvolvida para a **Maná Bowls**, uma marca de Bowls artesanais de Sorocaba/SP.
+Landing page institucional desenvolvida para a **Maná Bowls**, uma marca de Saladas e Bowls artesanais de Sorocaba/SP.
 
 O projeto foi criado com foco em uma experiência moderna, elegante e responsiva, transmitindo os valores da marca: **cuidado, frescor e simplicidade**.
 

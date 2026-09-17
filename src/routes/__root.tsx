@@ -75,11 +75,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Maná Bowls | Bowls frescas, artesanais e sofisticadas" },
+      { title: "Maná Bowls | Saladas frescas, artesanais e sofisticadas" },
       {
         name: "description",
         content:
-          "Bowls e bowls frescos, montados no dia com ingredientes selecionados e entregues com cuidado. Peça pelo WhatsApp.",
+          "Saladas e Bowls frescos, montados no dia com ingredientes selecionados e entregues com cuidado. Peça pelo WhatsApp.",
       },
       { name: "author", content: "Maná Bowls" },
       { property: "og:site_name", content: "Maná Bowls" },
