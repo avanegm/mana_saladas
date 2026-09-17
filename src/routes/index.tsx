@@ -268,7 +268,7 @@ function Index() {
                 </a>
 
                 <a
-                  href="https://drive.google.com/file/d/1v7HOaxgOr1d_-dBTTPUR02sgv1jJY735/view"
+                  href="https://drive.google.com/file/d/14uZV90nDPH8hnujM-aPSocnCE4u_xRHt/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full border border-forest/20 px-8 py-4 text-center font-semibold text-[#556E3C] transition hover:border-leaf hover:text-leaf"
