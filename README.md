@@ -1,6 +1,6 @@
-# 🥗 Maná Saladas
+# 🥗 Maná Bowls
 
-Landing page institucional desenvolvida para a **Maná Saladas**, uma marca de saladas artesanais de Sorocaba/SP.
+Landing page institucional desenvolvida para a **Maná Bowls**, uma marca de Bowls artesanais de Sorocaba/SP.
 
 O projeto foi criado com foco em uma experiência moderna, elegante e responsiva, transmitindo os valores da marca: **cuidado, frescor e simplicidade**.
 
@@ -54,13 +54,13 @@ src/
 Clone o projeto:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/site-mana-saladas.git
+git clone https://github.com/SEU_USUARIO/site-mana-Bowls.git
 ```
 
 Entre na pasta:
 
 ```bash
-cd site-mana-saladas
+cd site-mana-Bowls
 ```
 
 Instale as dependências:
@@ -119,12 +119,12 @@ O objetivo foi transmitir:
 
 **Instagram**
 
-[@mana.saladas](https://instagram.com/mana.saladas)
+[@manabowls](https://instagram.com/manabowls_)
 
 ---
 
 ## 📄 Licença
 
-Projeto desenvolvido exclusivamente para a **Maná Saladas**.
+Projeto desenvolvido exclusivamente para a **Maná Bowls**.
 
 Todos os direitos reservados.

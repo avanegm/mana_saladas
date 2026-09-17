@@ -27,13 +27,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Maná Saladas | Saladas frescas e artesanais com entrega" },
+      { title: "Maná Bowls | Bowls frescas e artesanais com entrega" },
       {
         name: "description",
         content:
-          "Saladas e bowls montados no dia com ingredientes frescos e selecionados. Sabor, leveza e cuidado em cada detalhe — peça pelo WhatsApp.",
+          "Bowls e bowls montados no dia com ingredientes frescos e selecionados. Sabor, leveza e cuidado em cada detalhe — peça pelo WhatsApp.",
       },
-      { property: "og:title", content: "Maná Saladas | Saladas frescas e artesanais" },
+      { property: "og:title", content: "Maná Bowls | Bowls frescas e artesanais" },
       {
         property: "og:description",
         content:
@@ -49,8 +49,8 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Restaurant",
-          name: "Maná Saladas",
-          servesCuisine: "Saladas, bowls e alimentação saudável",
+          name: "Maná Bowls",
+          servesCuisine: "Bowls, bowls e alimentação saudável",
           email: EMAIL,
           telephone: "+5515998249546",
           areaServed: ["Sorocaba", "Votorantim"],
@@ -175,7 +175,7 @@ function Index() {
 
               <Reveal>
                 <span className="eyebrow">
-                  Saladas frescas • Sorocaba e Votorantim
+                  Bowls frescas • Sorocaba e Votorantim
                 </span>
               </Reveal>
 
@@ -199,7 +199,7 @@ function Index() {
 
               <Reveal delay={200}>
                 <p className="mt-8 text-lg leading-8 text-muted-foreground">
-                  Saladas artesanais preparadas diariamente com ingredientes
+                  Bowls artesanais preparadas diariamente com ingredientes
                   frescos, muito sabor e carinho.
                 </p>
               </Reveal>
@@ -600,7 +600,7 @@ function Index() {
 
                 <img
                   src={logoMana}
-                  alt="Maná Saladas"
+                  alt="Maná Bowls"
                   className="h-20 w-auto object-contain"
                 />
 
@@ -639,7 +639,7 @@ function Index() {
 
             {/* COPYRIGHT */}
             <div className="mt-10 border-t border-border pt-5 text-center text-xs text-muted-foreground">
-              © 2026 Maná Saladas. Todos os direitos reservados.
+              © 2026 Maná Bowls. Todos os direitos reservados.
             </div>
 
           </div>
